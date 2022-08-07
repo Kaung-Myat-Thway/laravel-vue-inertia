@@ -78,4 +78,4 @@ Run the frontend server:
 npm run dev
 ```
 
-Visit `localhost:8000/products` in your browser.
+Visit `localhost:8000/products`
