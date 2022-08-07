@@ -63,17 +63,24 @@
     </BreezeAuthenticatedLayout>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import BreezeAuthenticatedLayout from "@/Layouts/Authenticated.vue";
 import { Inertia } from "@inertiajs/inertia";
 import { Head, Link, useForm } from "@inertiajs/inertia-vue3";
+
+interface ProductForm {
+    _method?: string,
+    name: string;
+    product: any;
+    image: File;
+}
 
 const props = defineProps({
     product: Object,
     image: String,
 });
-console.log(props.product);
-const form = useForm({
+
+const form = useForm<ProductForm>({
     name: props.product.name,
     image: null,
 });

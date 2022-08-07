@@ -106,7 +106,7 @@
     </BreezeAuthenticatedLayout>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import BreezeAuthenticatedLayout from "@/Layouts/Authenticated.vue";
 import { Head, Link } from "@inertiajs/inertia-vue3";
 
