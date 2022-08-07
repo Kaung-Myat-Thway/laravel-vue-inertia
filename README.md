@@ -2,6 +2,7 @@
 # Laravel9 + Vue 3  + Inertia + TypeScript
 
 ## Preview
+![image](https://user-images.githubusercontent.com/91175747/183292984-a03a8814-b1b6-4fd8-9cdf-3b418ddab1d7.png)
 
 
 ## Installation
